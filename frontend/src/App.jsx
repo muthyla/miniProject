@@ -1,0 +1,10 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+import Home from './pages/Home'
+import Prediction from './pages/Prediction'
+import Dashboard from './pages/Dashboard'
+import About from './pages/About'
+import Recommendations from './pages/Recommendations'
+import './styles.css'
+export default function App(){return <BrowserRouter><Navbar/><Routes><Route path="/" element={<Home/>}/><Route path="/predict" element={<Prediction/>}/><Route path="/recommendations" element={<Recommendations/>}/><Route path="/dashboard" element={<Dashboard/>}/><Route path="/about" element={<About/>}/></Routes><Footer/></BrowserRouter>}

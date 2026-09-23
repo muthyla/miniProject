@@ -1,0 +1,108 @@
+{
+  "place": {
+    "Basara Temple": {
+      "Parking_Percentage": 36.55,
+      "Mobile_Density_Score": 51.77
+    },
+    "Charminar": {
+      "Parking_Percentage": 34.2,
+      "Mobile_Density_Score": 49.38
+    },
+    "GVK One Mall": {
+      "Parking_Percentage": 37.36,
+      "Mobile_Density_Score": 51.66
+    },
+    "Gachibowli Indoor Stadium": {
+      "Parking_Percentage": 35.9,
+      "Mobile_Density_Score": 50.62
+    },
+    "Golconda Fort": {
+      "Parking_Percentage": 34.54,
+      "Mobile_Density_Score": 49.7
+    },
+    "Hussain Sagar": {
+      "Parking_Percentage": 34.45,
+      "Mobile_Density_Score": 49.3
+    },
+    "Hyderabad Exhibition Centre": {
+      "Parking_Percentage": 35.89,
+      "Mobile_Density_Score": 49.84
+    },
+    "Hyderabad International Airport": {
+      "Parking_Percentage": 59.11,
+      "Mobile_Density_Score": 70.4
+    },
+    "Inorbit Mall Hyderabad": {
+      "Parking_Percentage": 36.51,
+      "Mobile_Density_Score": 51.6
+    },
+    "KBR National Park": {
+      "Parking_Percentage": 37.38,
+      "Mobile_Density_Score": 52.43
+    },
+    "Kanaka Durga Temple": {
+      "Parking_Percentage": 35.9,
+      "Mobile_Density_Score": 51.33
+    },
+    "Lumbini Park": {
+      "Parking_Percentage": 37.26,
+      "Mobile_Density_Score": 52.08
+    },
+    "Mahatma Gandhi Bus Station": {
+      "Parking_Percentage": 58.73,
+      "Mobile_Density_Score": 70.64
+    },
+    "NTR Gardens": {
+      "Parking_Percentage": 37.08,
+      "Mobile_Density_Score": 52.18
+    },
+    "Nehru Zoological Park": {
+      "Parking_Percentage": 37.1,
+      "Mobile_Density_Score": 51.6
+    },
+    "Rajiv Gandhi International Stadium": {
+      "Parking_Percentage": 35.73,
+      "Mobile_Density_Score": 49.76
+    },
+    "Ramoji Film City": {
+      "Parking_Percentage": 34.74,
+      "Mobile_Density_Score": 49.4
+    },
+    "Salar Jung Museum": {
+      "Parking_Percentage": 35.17,
+      "Mobile_Density_Score": 49.55
+    },
+    "Sarath City Capital Mall": {
+      "Parking_Percentage": 37.18,
+      "Mobile_Density_Score": 51.94
+    },
+    "Secunderabad Railway Station": {
+      "Parking_Percentage": 58.81,
+      "Mobile_Density_Score": 70.42
+    },
+    "Shilparamam": {
+      "Parking_Percentage": 34.44,
+      "Mobile_Density_Score": 49.55
+    },
+    "Srisailam Mallikarjuna Temple": {
+      "Parking_Percentage": 36.24,
+      "Mobile_Density_Score": 50.33
+    },
+    "Tirumala Venkateswara Temple": {
+      "Parking_Percentage": 36.38,
+      "Mobile_Density_Score": 50.86
+    },
+    "Wonderla Hyderabad": {
+      "Parking_Percentage": 37.14,
+      "Mobile_Density_Score": 51.89
+    },
+    "Yadadri Temple": {
+      "Parking_Percentage": 36.77,
+      "Mobile_Density_Score": 51.35
+    }
+  },
+  "global": {
+    "Parking_Percentage": 38.82117808219178,
+    "Mobile_Density_Score": 53.183424657534246
+  }
+}

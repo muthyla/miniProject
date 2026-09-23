@@ -1,0 +1,4 @@
+import { Activity, Menu, X } from 'lucide-react'
+import { Link, NavLink } from 'react-router-dom'
+import { useState } from 'react'
+export default function Navbar() { const [open, setOpen] = useState(false); return <header className="nav"><Link to="/" className="brand"><span className="brand-mark"><Activity size={18}/></span> PulseCity</Link><button className="menu" onClick={() => setOpen(!open)} aria-label="Toggle navigation">{open ? <X/>:<Menu/>}</button><nav className={open ? 'nav-links open':'nav-links'}>{[['/','Overview'],['/predict','Predict'],['/recommendations','Best time'],['/dashboard','Live dashboard'],['/about','About']].map(([to,label])=><NavLink key={to} to={to} onClick={()=>setOpen(false)}>{label}</NavLink>)}</nav><Link to="/predict" className="nav-cta">Check a venue <span>↗</span></Link></header> }

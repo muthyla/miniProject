@@ -1,0 +1,144 @@
+{
+  "rows": 36500,
+  "metrics": {
+    "classifier": {
+      "accuracy": 0.9979452054794521,
+      "macro_f1": 0.9981292778506108
+    },
+    "regressor": {
+      "rmse": 1.232801215423053,
+      "mae": 0.029019302615193022,
+      "r2": 0.999309109549238
+    }
+  },
+  "classes": [
+    "High",
+    "Low",
+    "Medium",
+    "Very High"
+  ],
+  "top_classifier_features": [
+    [
+      "remainder__Parking_Percentage",
+      0.22643582304578322
+    ],
+    [
+      "remainder__Booked_Visitors",
+      0.13964415814377162
+    ],
+    [
+      "remainder__Mobile_Density_Score",
+      0.07260308278555608
+    ],
+    [
+      "categorical__Traffic_High",
+      0.06887956366316815
+    ],
+    [
+      "remainder__WeekendFlag",
+      0.05506893173387878
+    ],
+    [
+      "categorical__TimeSlot_19:00-21:00",
+      0.04261233941697254
+    ],
+    [
+      "categorical__TimeSlot_15:00-17:00",
+      0.04009812597653805
+    ],
+    [
+      "categorical__Weather_Rainy",
+      0.03346502065702063
+    ],
+    [
+      "categorical__TimeSlot_11:00-13:00",
+      0.032397296962158546
+    ],
+    [
+      "categorical__TimeSlot_07:00-09:00",
+      0.03238940767665862
+    ],
+    [
+      "remainder__Tokens_Issued",
+      0.025624207296459145
+    ],
+    [
+      "categorical__Traffic_Low",
+      0.0235920219763932
+    ],
+    [
+      "categorical__Traffic_Medium",
+      0.01807834030806607
+    ],
+    [
+      "categorical__Day_Sunday",
+      0.016777102597446858
+    ],
+    [
+      "categorical__Day_Saturday",
+      0.014995030531208833
+    ]
+  ],
+  "top_regressor_features": [
+    [
+      "remainder__Parking_Percentage",
+      0.76277855158939
+    ],
+    [
+      "remainder__Booked_Visitors",
+      0.13937436836050002
+    ],
+    [
+      "remainder__WeekendFlag",
+      0.02934853275221494
+    ],
+    [
+      "categorical__Weather_Rainy",
+      0.01895591791401355
+    ],
+    [
+      "categorical__TimeSlot_19:00-21:00",
+      0.016506370770590396
+    ],
+    [
+      "categorical__TimeSlot_15:00-17:00",
+      0.014006330642099206
+    ],
+    [
+      "categorical__Place_Type_Shopping Mall",
+      0.003950554390866387
+    ],
+    [
+      "categorical__Place_Type_Park",
+      0.0035299059171921094
+    ],
+    [
+      "categorical__Place_Type_Bus Station",
+      0.001854559745659946
+    ],
+    [
+      "categorical__Location_Mahatma Gandhi Bus Station",
+      0.0018444842004480108
+    ],
+    [
+      "categorical__Place_Type_Airport",
+      0.0016960736219274453
+    ],
+    [
+      "categorical__Place_Type_Railway Station",
+      0.0016505668610777592
+    ],
+    [
+      "categorical__Location_Hyderabad International Airport",
+      0.001624572266290673
+    ],
+    [
+      "categorical__Location_Secunderabad Railway Station",
+      0.0015470315884529907
+    ],
+    [
+      "remainder__HolidayFlag",
+      0.0011878352170073185
+    ]
+  ]
+}
